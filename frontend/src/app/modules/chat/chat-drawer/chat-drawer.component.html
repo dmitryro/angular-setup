@@ -1,0 +1,40 @@
+<div *ngIf="showChat">
+<div class="chat-container rounded-sm shadow-xl">
+     <div class="chat-header">
+ 
+
+
+            <div class="w-full lg:w-2/12 px-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd" d="M18 13V5a2 2 0 00-2-2H4a2 2 0 00-2 2v8a2 2 0 002 2h3l3 3 3-3h3a2 2 0 002-2zM5 7a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1zm1 3a1 1 0 100 2h3a1 1 0 100-2H6z" clip-rule="evenodd" />
+                </svg>
+            </div>
+            <div  class="w-full lg:w-10/12 px-2">Let's chat
+            </div>
+
+
+     </div>
+
+
+
+     <div class="message-contaner">
+     </div>
+
+
+
+
+     <div class="typing-container">
+       <div class="typing-wrapper shadow-xl">
+           <input type="text" class="focus:outline-none chat-typing" />
+       </div>
+     </div>
+
+
+     <div class="chat-footer">
+      <button (click)="send()">Send</button>
+     </div>
+
+
+</div>
+</div>
+<div *ngIf="!showChat"></div>

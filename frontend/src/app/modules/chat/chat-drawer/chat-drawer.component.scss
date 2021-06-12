@@ -1,0 +1,88 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.rounded-sm { border-radius: 0.250rem; }
+
+.chat-container {
+   background: #ffffff;
+   height: 320px;
+   width: 250px;
+   right: 25px;
+   bottom: 90px;
+   position: absolute;
+}
+
+.message-contaner {
+   width: 100%;
+   height: 58%;
+   position: relative;
+}
+
+.chat-header {
+   border-top-left-radius: 0.250rem;
+   border-top-right-radius: 0.250rem;
+   background-color: #0C9BF4;
+   color: #ffffff;
+   width: 100%;
+   height: 9%;
+   position: relative;
+   padding-top:2px;
+   padding-left:2px;
+}
+
+.typing-container {
+   height: 20%;
+   width: 100%;
+   position:relative;
+}
+
+.typing-wrapper {
+   border-bottom: 1px #0C9BF4 solid;
+   margin: 2px 2px 2px 2px;
+   width: 96%;
+   height: 96%;
+   position: center;
+}
+
+.chat-footer {
+   width:100%;
+   height: 10%; 
+}
+
+.chat-typing {
+   margin-top: 2.0em;
+   height: 2.3em;
+   position: relative;
+   width: 98%;
+   border: none;
+   background-color: transparent;
+   resize: none;
+   outline: none;
+   -webkit-appearance: none;
+}
+
+.chat-typing:focus {
+  @apply outline-none;
+}
+
+.typing-wrapper input:focus {
+  outline:none;
+}
+input:focus {
+    -webkit-appearance: none;
+    outline:none;
+}
+
+input {
+  -webkit-appearance: none;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+}
+
+.no-outline:focus {
+  -webkit-appearance: none;
+  outline: none;
+}

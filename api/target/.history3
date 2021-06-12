@@ -1,0 +1,4 @@
+1612660640734:name := "ScalaSparkRun"\n\nversion := "0.1"\n\nscalaVersion := "2.12.13"\n\nlibraryDependencies ++= Seq(\n  "org.apache.spark" %% "spark-core" % "2.4.0",\n  "org.scalactic" %% "scalactic" % "3.3.0-SNAP3" % Test,\n  "org.scalatest" %% "scalatest" % "3.3.0-SNAP3" % Test,\n  "org.scalacheck" %% "scalacheck" % "1.14.1" % Test\n)
+1612660663242:libraryDependencies ++= Seq(\n  "org.apache.spark" %% "spark-core" % "2.4.0",\n  "org.scalactic" %% "scalactic" % "3.3.0-SNAP3" % Test,\n  "org.scalatest" %% "scalatest" % "3.3.0-SNAP3" % Test,\n  "org.scalacheck" %% "scalacheck" % "1.14.1" % Test,\n)
+1612660698116:libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.14.1" % "test"
+1612660828497:libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.2" % "test"
